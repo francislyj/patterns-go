@@ -3,7 +3,7 @@ package builder
 import "fmt"
 
 func TestBuilder() {
-	normalBuilder := &normalBuilder{}
+	normalBuilder := getBuilder("normal")
 
 	director := newDirector(normalBuilder)
 	normalHouse := director.buildHouse()
