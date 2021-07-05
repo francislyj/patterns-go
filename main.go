@@ -1,6 +1,21 @@
 package main
 
-import "github.com/francislyj/patterns-go/create/single"
+import (
+	"fmt"
+	"github.com/francislyj/patterns-go/structure/adapter"
+	"sync"
+)
+
+func TestMutex() {
+	var mutex sync.Mutex
+	fmt.Printf("%+v\n", mutex)
+
+	mutex.Lock()
+	fmt.Printf("%+v\n", mutex)
+
+	mutex.Unlock()
+	fmt.Printf("%+v\n", mutex)
+}
 
 func main() {
 	//factory.TestFactory()
@@ -9,6 +24,13 @@ func main() {
 
 	//prototype.TestPrototype()
 
-	single.TestSingle()
+	//single.TestSingle()
+
+
+	//TestMutex()
+
+	adapter.TestAdapter()
+
+
 
 }

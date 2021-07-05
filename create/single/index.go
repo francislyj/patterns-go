@@ -7,5 +7,9 @@ func TestSingle() {
 		go getInstance()
 	}
 
-	fmt.Scanln()
+	var name string
+
+	fmt.Scanln(&name)
+
+	fmt.Printf("name is %s", name)
 }
