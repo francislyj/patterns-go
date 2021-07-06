@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/francislyj/patterns-go/structure/wrapper"
+	"github.com/francislyj/patterns-go/structure/facade"
 	"sync"
 )
 
@@ -28,6 +28,7 @@ func main() {
 	//adapter.TestAdapter()
 	//bridge.TestBridge()
 	//composite.TestComposite()
-	wrapper.TestWrapper()
+	//wrapper.TestWrapper()
+	facade.TestFacade()
 
 }
