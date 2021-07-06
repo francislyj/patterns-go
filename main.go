@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/francislyj/patterns-go/structure/composite"
+	"github.com/francislyj/patterns-go/structure/wrapper"
 	"sync"
 )
 
@@ -21,19 +21,13 @@ func main() {
 	//factory.TestFactory()
 	//factory_abs.TestAbsFactory()
 	//builder.TestBuilder()
-
 	//prototype.TestPrototype()
-
 	//single.TestSingle()
 
-
 	//TestMutex()
-
 	//adapter.TestAdapter()
-
 	//bridge.TestBridge()
-	composite.TestComposite()
-
-
+	//composite.TestComposite()
+	wrapper.TestWrapper()
 
 }
