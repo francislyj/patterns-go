@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/francislyj/patterns-go/structure/adapter"
+	"github.com/francislyj/patterns-go/structure/bridge"
 	"sync"
 )
 
@@ -29,7 +29,9 @@ func main() {
 
 	//TestMutex()
 
-	adapter.TestAdapter()
+	//adapter.TestAdapter()
+
+	bridge.TestBridge()
 
 
 
