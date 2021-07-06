@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/francislyj/patterns-go/structure/bridge"
+	"github.com/francislyj/patterns-go/structure/composite"
 	"sync"
 )
 
@@ -31,7 +31,8 @@ func main() {
 
 	//adapter.TestAdapter()
 
-	bridge.TestBridge()
+	//bridge.TestBridge()
+	composite.TestComposite()
 
 
 
