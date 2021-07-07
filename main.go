@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/francislyj/patterns-go/behavior/cor"
+	"github.com/francislyj/patterns-go/behavior/command"
 	"sync"
 )
 
@@ -33,6 +33,7 @@ func main() {
 	//flyweight.TestFlyWeight()
 	//proxy.TestProxy()
 
-	cor.TestCor()
+	//cor.TestCor()
+	command.TestCommand()
 
 }
