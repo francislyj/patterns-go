@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/francislyj/patterns-go/behavior/command"
+	"github.com/francislyj/patterns-go/behavior/iterator"
 	"sync"
 )
 
@@ -34,6 +34,7 @@ func main() {
 	//proxy.TestProxy()
 
 	//cor.TestCor()
-	command.TestCommand()
+	//command.TestCommand()
+	iterator.TestIterator()
 
 }
