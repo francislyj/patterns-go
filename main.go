@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/francislyj/patterns-go/structure/proxy"
+	"github.com/francislyj/patterns-go/behavior/cor"
 	"sync"
 )
 
@@ -31,6 +31,8 @@ func main() {
 	//wrapper.TestWrapper()
 	//facade.TestFacade()
 	//flyweight.TestFlyWeight()
-	proxy.TestProxy()
+	//proxy.TestProxy()
+
+	cor.TestCor()
 
 }
