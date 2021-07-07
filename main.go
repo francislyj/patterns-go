@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/francislyj/patterns-go/structure/proxy"
 	"sync"
 )
 
@@ -30,5 +31,6 @@ func main() {
 	//wrapper.TestWrapper()
 	//facade.TestFacade()
 	//flyweight.TestFlyWeight()
+	proxy.TestProxy()
 
 }
