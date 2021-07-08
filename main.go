@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/francislyj/patterns-go/behavior/iterator"
+	"github.com/francislyj/patterns-go/behavior/intermediary"
 	"sync"
 )
 
@@ -35,6 +35,7 @@ func main() {
 
 	//cor.TestCor()
 	//command.TestCommand()
-	iterator.TestIterator()
+	//iterator.TestIterator()
+	intermediary.TestIntermediary()
 
 }
