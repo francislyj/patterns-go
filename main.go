@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/francislyj/patterns-go/behavior/state"
+	"github.com/francislyj/patterns-go/behavior/strategy"
 	"sync"
 )
 
@@ -39,6 +39,7 @@ func main() {
 	//intermediary.TestIntermediary()
 	//snapshot.TestSnapshot()
 	//observer.TestObserver()
-	state.TestState()
+	//state.TestState()
+	strategy.TestStrategy()
 
 }
