@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/francislyj/patterns-go/behavior/observer"
+	"github.com/francislyj/patterns-go/behavior/state"
 	"sync"
 )
 
@@ -38,6 +38,7 @@ func main() {
 	//iterator.TestIterator()
 	//intermediary.TestIntermediary()
 	//snapshot.TestSnapshot()
-	observer.TestObserver()
+	//observer.TestObserver()
+	state.TestState()
 
 }
