@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/francislyj/patterns-go/behavior/intermediary"
+	"github.com/francislyj/patterns-go/behavior/snapshot"
 	"sync"
 )
 
@@ -36,6 +36,7 @@ func main() {
 	//cor.TestCor()
 	//command.TestCommand()
 	//iterator.TestIterator()
-	intermediary.TestIntermediary()
+	//intermediary.TestIntermediary()
+	snapshot.TestSnapshot()
 
 }
